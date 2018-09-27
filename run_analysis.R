@@ -91,4 +91,4 @@ colnames(set_ActivityNames) <- set_ActivityNames_Cols
 
 tidy_set <- aggregate(. ~subjectId + activityId, set_ActivityNames, mean)
 tidy_set <- tidy_set[order(tidy_set$subjectId, tidy_set$activityId),]
-write.table(tidy_set, "C:/library/tidy_data.txt", row.name=FALSE,col.names = TRUE)
+write.table(tidy_set, "C:/library/tidy_data.txt", row.name=FALSE)
