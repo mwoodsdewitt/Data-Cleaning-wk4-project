@@ -325,13 +325,11 @@ Identifiers section).
 
 
 The variable names were replaced with
-descriptive variable names (e.g. tBodyAcc-mean()-X was expanded to
-timeDomainBodyAccelerometerMeanX), using the following set of rules: Special
-characters (i.e. (, ), and -) were removed The initial f and t were expanded to
-frequencyDomain and timeDomain respectively. Acc, Gyro, Mag, Freq, mean, and
+descriptive variable names: 
+Special characters were removed and the f and t were expanded to
+frequency_Domain and time_Domain respectively. Acc, Gyro, Mag, Freq, mean, and
 std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, Mean,
-and StandardDeviation respectively. Replaced (supposedly incorrect as per source's
-features_info.txt file) BodyBody with Body.
+and Standard_Deviation.
 
 
 
