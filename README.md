@@ -33,4 +33,4 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Overview
 To create the data set run the r script "run_analysis.R" be sure to have have downloaded and extracted the source data first. The source data may be found at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-The script was created using R version 3.4.1 (2017-06-30) and used dplyr version 0.7.5
+The script was created using R version 3.4.1 (2017-06-30) and used dplyr version 0.7.5, and readr version 1.1.1
