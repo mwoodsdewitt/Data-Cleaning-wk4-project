@@ -35,19 +35,15 @@ to 30.
 
 
 
-activity
-
-
-
-Activity identifier, string with 6 possible
+Activity a string with 6 possible
 values:
 
-
-
-WALKING: subject was walking
-WALKING_UPSTAIRS: subject was walking upstairs WALKING_DOWNSTAIRS: subject was
-walking downstairs SITTING: subject was sitting STANDING: subject was standing
-LAYING: subject was laying Average of measurements
+1 - WALKING: subject was walking during the test
+2 - WALKING_UPSTAIRS: subject was walking up a staircase during the test
+3 - WALKING_DOWNSTAIRS: subject was walking down a staircase during the test
+4 - SITTING: subject was sitting during the test
+5 - STANDING: subject was standing during the test
+6 - LAYING: subject was laying down during the test
 
 
 
@@ -312,16 +308,21 @@ merged to create one data set.
 
 
 
-The measurements on the mean and standard
-deviation (i.e. signals containing the strings mean and std) were extracted for
-each measurement, and the others were discarded.
+The measurements on the mean and standard deviation
 
 
 
-The activity identifiers (originally coded
-as integers between 1 and 6) were replaced with descriptive activity names (see
-Identifiers section).
+The activity identifiers - may be found in the "Indentifier" section near the start of the document, but reprinted here for convenience.
 
+
+1 - WALKING: subject was walking during the test
+2 - WALKING_UPSTAIRS: subject was walking up a staircase
+during the test
+3 - WALKING_DOWNSTAIRS: subject was walking down a
+staircase during the test
+4 - SITTING: subject was sitting during the test
+5 - STANDING: subject was standing during the test
+6 - LAYING: subject was laying down during the test
 
 
 The variable names were replaced with
